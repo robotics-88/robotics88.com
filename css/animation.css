@@ -1,32 +1,12 @@
+.animation-fade-in {
+  animation: fadeIn 1s
+}
 
 @keyframes fadeIn {
-  from {
-    transform: translateY(2rem);
-    opacity: 0;
+  0% {
+    opacity: 0
   }
-  to {
-    transform: translateY(0);
-    opacity: 1;
+  100% {
+    opacity: 1
   }
-}
-
-.r88-fade-in {
-  animation: fadeIn 1s ease-in;
-}
-
-.r88-transition {
-  transition-duration: 0.1s;
-}
-
-.r88-move-up:hover {
-  transform: translateY(-1rem);
-}
-
-.r88-move-down:hover {
-  transform: translateY(1rem);
-}
-
-.r88-pop:hover {
-  transform: scale(1.025);
-  cursor: pointer;
 }
