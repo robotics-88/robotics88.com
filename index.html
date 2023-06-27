@@ -8,6 +8,7 @@
   <link rel="canonical"  href="https://www.robotics88.com/">
   <link rel="stylesheet" href="css/modern-normalize.css" >
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/animation.css">
   <!-- TODO: Favicons -->
   <link rel="icon"              href="" sizes="16x16"   type="image/png">
@@ -28,19 +29,20 @@
       <!-- Navigation -->
       <nav class="home-navigation">
         <ul>
-          <li><a href="#what-we-do">What We Do</a></li>
-          <li><a href="#who-we-are">Who We Are</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact-us">Contact Us</a></li>
+          <li class="grow"><a href="#what-we-do">What We Do</a></li>
+          <li class="grow"><a href="#who-we-are">Who We Are</a></li>
+          <li class="grow"><a href="#projects">Projects</a></li>
+          <li class="grow"><a href="#contact-us">Contact Us</a></li>
         </ul>
       </nav>
 
       <!-- Logo -->
       <div class="home-logo">
         <a href="#">
-          <img class="home-logo-image" src="img/logo.svg" alt="Robotics 88" width="100%">
+          <img class="home-logo-image grow" src="img/logo.svg" alt="Robotics 88" width="100%">
         </a>
-        <p class="home-logo-lead">The Best Drones for the Best Kind of Fire</p>
+        <p class="home-logo-lead">Great Drones for Good Fire</p>
+          <a href="#what-we-do"><img src="img/down-arrow.svg" class="down-arrow"></a>
       </div>
 
     </div>
@@ -49,94 +51,108 @@
 
   <!-- What We Do -->
   <article id="what-we-do">
+    <h2>Our Mission</h2>
+    <section class="column">
+      <p>To use robotics to inprove quality of life for all people, plants and animals.</p>
+      <p>Our prescribed burn planning UAV helps land managers reduce wildfire risk for their communities. Using our innovative <i>adaptive exploration technology</i>™ our UAVs go beyond following simple instructions and can make smart decisions about how to navigate unstructured environments, bringing autonomous robotics one step forward.</p>
+    </section>
     <h2>What We Do</h2>
-    <img src="img/ndmi-plot2.min.png">
-    <ul>
-      <li>
-        <div>
-          <h3>Decision-Making</h3>
-          <p>We tailor a proprietary, generalized decision-making algorithm for robots to explore and collect data in diverse environments.</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h3>Data Stewardship</h3> 
-          <p>We collect large amounts of ecological and robotic decision-making data for the purpose of better understanding the environment, climate change and the behaviors of robots.</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h3>Validation &amp; Verification</h3>
-          <p>With quantitative data, we ensure that robotic behavior is effectively understood and aligns with qualitative needs.</p>
-        </div>
-      </li>
-    </ul>
+    <section class="row">
+      <div class="column">
+        <img class="article-image" src="img/ndmi-plot2.min.png">
+      </div>
+      <div class="column">
+        <h3>Decision-Making</h3>
+        <p>Efficient exploration and mapping of cluttered forest environments through our proprietary, generalized decision-making algorithm.</p>
+        <h3>Data Stewardship</h3> 
+        <p>Secure and equitable data management means sharing our ecological data with researchers for better understanding the environment, wildfire, and climate change.</p>
+        <h3>Validation &amp; Verification</h3>
+        <p>Quantified UAV behavior modeling through rigorous testing for safety-critical operations.</p>
+        <h3>Do we compete with other forestry robotic companies?</h3>
+        <p>Umm actually what we do is really different from everyone else so they are definitely not a competitor! ok thx bai ;)</p>
+      </div>
+    </section>
   </article>
 
 
   <!-- Who We Are -->
   <article id="who-we-are">
-    <div class="content">
-      <h2>Who We Are</h2>
-      <ul >
-        <li>
-          <div>
-            <h3><a href="https://www.linkedin.com/in/erin-linebarger">Erin M. Linebarger, PhD</a></h3>
-            <h4>CEO and Co-Founder</h4>
-            <p>About Erin</p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h3><a href="https://www.linkedin.com/in/tylerlanecodes/">Tyler Lane</a></h3> 
-            <h4>CTO and Co-Founder</h4>
-            <p>About Tyler</p>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <h2>Who We Are</h2>
+    <section class="row">
+      <div class="column">
+        <img src="img/erin-drone.jpg" alt="Erin on a beach holding a drone" class="bio-pic">
+        <h3>
+          Erin M. Linebarger, PhD
+          <small> - <a href="https://www.linkedin.com/in/erin-linebarger" target="_blank">LinkedIn</a></small>
+        </h3>
+        <h4>CEO and Co-Founder</h4>
+        <p></p>
+      </div>
+      <div class="column">
+        <img src="img/tyler-cat.jpg" alt="Tyler with a big gray cat" class="bio-pic">
+        <h3>
+          Tyler Lane
+          <small> - <a href="https://www.linkedin.com/in/tylerlanecodes/" target="_blank">LinkedIn</a></small>
+        </h3> 
+        <h4>CTO and Co-Founder</h4>
+        <p>About Tyler</p>
+      </div>
+    </section>
   </article>
 
 
+  <!-- 
+logo-noaa.svg
+logo-nsf.svg
+logo-stacri.png
+logo-xprize.png
+  -->
+
   <!-- Projects -->
   <article id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <h3><a href="https://techpartnerships.noaa.gov/sbir/">NOAA SBIR Phase 1</a></h3> 
-        <p>Producing wildfire risk models from autonomous subcanopy UAS surveys.</p>
-      </li>
-      <li>
-        <h3><a href="https://www.xprize.org/home">XPRIZE Rainforest</a></h3> 
-        <p>Supporting a collective of indiginous people and scientific researchers to provide vegetation mapping of the rainforest for XPRIZE.</p>
-      </li>
-      <li>
-        <h3><a href="https://stac.ri.gov/">STAC RI</a></h3>
-        <p>Funding for rapid prototyping of our fire modeling UAS.</p>
-        <!-- enabling us to hire an intern with expertise in 3D design and printing (thank you, Skylar Robert!) -->
-      </li>
-      <li>
-        <h3><a href="#">NSF</a></h3>
-        <p>NSF info goes here :)</p>
-      </li>
-    </ul>
+    <h2>Current & Past Projects</h2>
+    <section class="column">
+
+      <div class="logos">
+        <img src="img/logo-noaa.svg" class="project-logo">
+        <img src="img/logo-nsf.svg" class="project-logo">
+        <img src="img/logo-xprize.png" class="project-logo">
+        <img src="img/logo-stacri.png" class="project-logo">
+        <img src="img/logo-cmu.png" class="project-logo">
+      </div>
+
+      <h3><a href="https://techpartnerships.noaa.gov/sbir/">NOAA SBIR Phase 1</a></h3>
+      <p>Producing wildfire risk models from autonomous subcanopy UAS surveys.</p>
+
+      <h3> <a href="https://www.xprize.org/home">XPRIZE Rainforest</a> </h3> 
+      <p>Supporting a collective of indiginous people and scientific researchers to provide vegetation mapping of the rainforest for XPRIZE.</p>
+
+      <h3> <a href="https://stac.ri.gov/">STAC RI</a> </h3>
+      <p>Funding to provide internship for rapid prototyping of our fire modeling UAS (thank you, Skylar Robert!)</p>
+
+      <h3>
+        <a href="#">NSF</a>
+      </h3>
+      <p>Autonomous UAS to map and explore a forest in 3D in collaboration with Carnegie Mellon University</p>
+    </section>
   </article>
 
   <!-- Contact Us -->
   <article id="contact-us">
-    <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/mjvzyjgp" method="POST" style="max-width:720px">
-      <div>
-        <label for="email">Your email</label>
-        <input type="email" name="email" id="email">
-      </div>
-      <div>
-        <label for="message">Your message</label>
-        <textarea name="message" rows="3" id="message"></textarea>
-      </div>
-      <button type="submit">Contact Us</button>
-    </form>
-    <div></div>
+    <section>
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/mjvzyjgp" method="POST">
+        <div>
+          <label for="email">Your email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div>
+          <label for="message">Your message</label>
+          <textarea name="message" rows="3" id="message"></textarea>
+        </div>
+        <button type="submit">Contact Us</button>
+      </form>
+    </section>
   </article>
 
   </main>
