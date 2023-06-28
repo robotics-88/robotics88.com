@@ -192,4 +192,9 @@ footer {
   .down-arrow {
     display: none;
   }
+
+  /* temp bug fix */
+  .home-background {
+    background: #5B5B66;
+  }
 }
